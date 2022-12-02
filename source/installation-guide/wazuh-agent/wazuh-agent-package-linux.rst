@@ -99,7 +99,7 @@ The deployment process is now complete, and the Wazuh agent is successfully runn
 
 
       .. group-tab:: APT
-
+                sudo apt-mark hold wazuh-agent   #This is for holding wazuh-agent upgrade  
 
         .. include:: ../../_templates/installations/wazuh/deb/disabling_repository.rst
 
